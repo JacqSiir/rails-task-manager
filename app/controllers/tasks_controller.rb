@@ -4,6 +4,7 @@ class TasksController < ApplicationController
     end
 
     def show
+        @tasks = Task[:id]
     end
 
     def new
@@ -11,5 +12,5 @@ class TasksController < ApplicationController
 
     def create
     end
-    
+
 end
